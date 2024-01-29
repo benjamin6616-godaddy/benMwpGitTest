@@ -1,0 +1,1555 @@
+.ct-section {
+width:100%;
+background-size:cover;
+background-repeat:repeat;
+}
+.ct-section>.ct-section-inner-wrap {
+display:flex;
+flex-direction:column;
+align-items:flex-start;
+}
+.ct-div-block {
+display:flex;
+flex-wrap:nowrap;
+flex-direction:column;
+align-items:flex-start;
+}
+.ct-new-columns {
+display:flex;
+width:100%;
+flex-direction:row;
+align-items:stretch;
+justify-content:center;
+flex-wrap:wrap;
+}
+.ct-link-text {
+display:inline-block;
+}
+.ct-link {
+display:flex;
+flex-wrap:wrap;
+text-align:center;
+text-decoration:none;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+}
+.ct-link-button {
+display:inline-block;
+text-align:center;
+text-decoration:none;
+}
+.ct-link-button {
+background-color: #1e73be;
+border: 1px solid #1e73be;
+color: #ffffff;
+padding: 10px 16px;
+}
+.ct-image {
+max-width:100%;
+}
+.ct-fancy-icon>svg {
+width:55px;height:55px;}
+.ct-inner-content {
+width:100%;
+}
+.ct-slide {
+display:flex;
+flex-wrap:wrap;
+text-align:center;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+}
+.ct-nestable-shortcode {
+display:flex;
+flex-wrap:nowrap;
+flex-direction:column;
+align-items:flex-start;
+}
+.oxy-comments {
+width:100%;
+text-align:left;
+}
+.oxy-comment-form {
+width:100%;
+}
+.oxy-login-form {
+width:100%;
+}
+.oxy-search-form {
+width:100%;
+}
+.oxy-tabs-contents {
+display:flex;
+width:100%;
+flex-wrap:nowrap;
+flex-direction:column;
+align-items:flex-start;
+}
+.oxy-tab {
+display:flex;
+flex-wrap:nowrap;
+flex-direction:column;
+align-items:flex-start;
+}
+.oxy-tab-content {
+display:flex;
+width:100%;
+flex-wrap:nowrap;
+flex-direction:column;
+align-items:flex-start;
+}
+.oxy-testimonial {
+width:100%;
+}
+.oxy-icon-box {
+width:100%;
+}
+.oxy-pricing-box {
+width:100%;
+}
+.oxy-posts-grid {
+width:100%;
+}
+.oxy-gallery {
+width:100%;
+}
+.ct-slider {
+width:100%;
+}
+.oxy-tabs {
+display:flex;
+flex-wrap:nowrap;
+flex-direction:row;
+align-items:stretch;
+}
+.ct-modal {
+flex-direction:column;
+align-items:flex-start;
+}
+.ct-span {
+display:inline-block;
+text-decoration:inherit;
+}
+.ct-widget {
+width:100%;
+}
+.ct-columns {
+position:relative;
+}
+.ct-ul {
+margin-top:0px;
+margin-bottom:0px;
+padding-left:0px;
+}
+.oxy-dynamic-list {
+width:100%;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+			.ct-div-block,
+			.oxy-post-content,
+			.ct-text-block,
+			.ct-headline,
+			.oxy-rich-text,
+			.ct-link-text { max-width: 100%; }
+			img { flex-shrink: 0; }
+			body * { min-height: 1px; }
+		}            .oxy-testimonial {
+                flex-direction: row;
+                align-items: center;
+            }
+                        .oxy-testimonial .oxy-testimonial-photo-wrap {
+                order: 1;
+            }
+            
+                        .oxy-testimonial .oxy-testimonial-photo {
+                width: 125px;                height: 125px;                margin-right: 20px;
+            }
+            
+                        .oxy-testimonial .oxy-testimonial-photo-wrap, 
+            .oxy-testimonial .oxy-testimonial-author-wrap, 
+            .oxy-testimonial .oxy-testimonial-content-wrap {
+                align-items: flex-start;                text-align: left;            }
+            
+                                                            .oxy-testimonial .oxy-testimonial-text {
+                margin-bottom:8px;font-size: 21px;
+line-height: 1.4;
+-webkit-font-smoothing: subpixel-antialiased;
+            }
+            
+                                    .oxy-testimonial .oxy-testimonial-author {
+                font-size: 18px;
+-webkit-font-smoothing: subpixel-antialiased;
+            }
+                            
+
+                                                .oxy-testimonial .oxy-testimonial-author-info {
+                font-size: 12px;
+-webkit-font-smoothing: subpixel-antialiased;
+            }
+            
+             
+            
+                        .oxy-icon-box {
+                text-align: left;                flex-direction: column;            }
+            
+                        .oxy-icon-box .oxy-icon-box-icon {
+                margin-bottom: 12px;
+                align-self: flex-start;            }
+            
+                                                                        .oxy-icon-box .oxy-icon-box-heading {
+                font-size: 21px;
+margin-bottom: 12px;            }
+            
+                                                                                    .oxy-icon-box .oxy-icon-box-text {
+                font-size: 16px;
+margin-bottom: 12px;align-self: flex-start;            }
+            
+                        .oxy-icon-box .oxy-icon-box-link {
+                margin-top: 20px;                            }
+            
+            
+            /* GLOBALS */
+
+                                                            .oxy-pricing-box .oxy-pricing-box-section {
+                padding-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+alignment: center;
+text-align: center;            }
+                        
+                        .oxy-pricing-box .oxy-pricing-box-section.oxy-pricing-box-price {
+                justify-content: center;            }
+            
+            /* IMAGE */
+                                                                                    .oxy-pricing-box .oxy-pricing-box-section.oxy-pricing-box-graphic {
+                justify-content: center;            }
+            
+            /* TITLE */
+                                                            
+                                    .oxy-pricing-box .oxy-pricing-box-title-title {
+                font-size: 48px;
+            }
+            
+                                    .oxy-pricing-box .oxy-pricing-box-title-subtitle {
+                font-size: 24px;
+            }
+            
+
+            /* PRICE */
+                                                .oxy-pricing-box .oxy-pricing-box-section.oxy-pricing-box-price {
+                                                flex-direction: row;                                            }
+            
+                                    .oxy-pricing-box .oxy-pricing-box-currency {
+                font-size: 28px;
+            }
+            
+                                    .oxy-pricing-box .oxy-pricing-box-amount-main {
+                font-size: 80px;
+line-height: 0.7;
+            }
+            
+                                    .oxy-pricing-box .oxy-pricing-box-amount-decimal {
+                font-size: 13px;
+            }
+                        
+                                    .oxy-pricing-box .oxy-pricing-box-term {
+                font-size: 16px;
+            }
+            
+                                    .oxy-pricing-box .oxy-pricing-box-sale-price {
+                font-size: 12px;
+color: rgba(0,0,0,0.5);
+                margin-bottom: 20px;            }
+            
+            /* CONTENT */
+
+                                                                        .oxy-pricing-box .oxy-pricing-box-section.oxy-pricing-box-content {
+                font-size: 16px;
+color: rgba(0,0,0,0.5);
+            }
+            
+            /* CTA */
+
+                                                                        .oxy-pricing-box .oxy-pricing-box-section.oxy-pricing-box-cta {
+                justify-content: center;            }
+            
+        
+                        .oxy-progress-bar .oxy-progress-bar-background {
+            background-color: #000000;            background-image: linear-gradient(-45deg,rgba(255,255,255,.12) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.12) 50%,rgba(255,255,255,.12) 75%,transparent 75%,transparent);            animation: none 0s paused;        }
+        
+                .oxy-progress-bar .oxy-progress-bar-progress-wrap {
+            width: 85%;        }
+        
+                                                .oxy-progress-bar .oxy-progress-bar-progress {
+            background-color: #66aaff;padding: 40px;animation: none 0s paused, none 0s paused;            background-image: linear-gradient(-45deg,rgba(255,255,255,.12) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.12) 50%,rgba(255,255,255,.12) 75%,transparent 75%,transparent);        
+        }
+        
+                        .oxy-progress-bar .oxy-progress-bar-overlay-text {
+            font-size: 30px;
+font-weight: 900;
+-webkit-font-smoothing: subpixel-antialiased;
+        }
+        
+                        .oxy-progress-bar .oxy-progress-bar-overlay-percent {
+            font-size: 12px;
+        }
+        
+        .ct-slider .unslider-nav ol li {border-color: #ffffff; }.ct-slider .unslider-nav ol li.unslider-active {background-color: #ffffff; }.ct-slider .ct-slide {
+				padding: 0px;			}
+		
+                        .oxy-superbox .oxy-superbox-secondary, 
+            .oxy-superbox .oxy-superbox-primary {
+                transition-duration: 0.5s;            }
+            
+            
+            
+            
+            
+        
+        
+        
+        .ct-section-inner-wrap, .oxy-header-container{
+  max-width: 1120px;
+}
+body {font-family: 'Maven Pro';}body {line-height: 1.6;font-size: 16px;font-weight: ;color: ;}.oxy-nav-menu-hamburger-line {background-color: ;}h1, h2, h3, h4, h5, h6 {font-family: 'Oswald';font-weight: 700;}h2, h3, h4, h5, h6{font-weight: 700;}.ct-section-inner-wrap {
+padding-top: 75px;
+padding-right: 20px;
+padding-bottom: 75px;
+padding-left: 20px;
+}.oxy-header-container {
+padding-right: 20px;
+padding-left: 20px;
+}@media (max-width: 992px) {
+				.ct-columns-inner-wrap {
+					display: block !important;
+				}
+				.ct-columns-inner-wrap:after {
+					display: table;
+					clear: both;
+					content: "";
+				}
+				.ct-column {
+					width: 100% !important;
+					margin: 0 !important;
+				}
+				.ct-columns-inner-wrap {
+					margin: 0 !important;
+				}
+			}
+.green-button:hover{
+ text-decoration:none;
+ color:#6799b2;
+}
+.green-button {
+ font-family:'Maven Pro';
+ font-size:18px;
+ font-weight:900;
+ line-height:1;
+ letter-spacing:1px;
+ text-transform:uppercase;
+ color:#ffffff;
+ background-color:#65bec2;
+ padding-left:48px;
+ padding-right:48px;
+ padding-bottom:20px;
+ text-decoration:none;
+ transition-duration:0.2s;
+ transition-timing-function:ease;
+ transition-property:all;
+ padding-top:20px;
+ text-align:center;
+}
+.Quote {
+background-image:url(http://financial.oxy.host/wp-content/uploads/sites/33/2018/02/“@2x.png);background-size: 36px auto; font-family:'Maven Pro';
+ font-style:italic;
+ line-height:1.6;
+ margin-bottom:36px;
+ color:#2b2c27;
+ background-repeat:no-repeat;
+ padding-left:48px;
+ background-position:0px 0px;
+}
+.Heading1 {
+ font-family:'Oswald';
+ margin-bottom:8px;
+ color:#2b2c27;
+ font-size:72px;
+ font-weight:900;
+ line-height:1;
+}
+@media (max-width: 767px) {
+.Heading1 {
+ font-size:64px;
+}
+}
+
+@media (max-width: 479px) {
+.Heading1 {
+ font-size:40px;
+}
+}
+
+.conference-heading-one {
+ font-family:'Oswald';
+ color:#ffffff;
+ font-size:72px;
+ font-weight:700;
+ line-height:1;
+ text-transform:uppercase;
+ z-index:100;
+}
+@media (max-width: 767px) {
+.conference-heading-one {
+ font-size:56px;
+}
+}
+
+.conference-subheading {
+ font-family:'Oswald';
+ color:#ffdad0;
+ font-size:32px;
+ font-weight:500;
+ line-height:1.3;
+ letter-spacing:7px;
+ text-transform:uppercase;
+ z-index:100;
+}
+.oxy-stock-content-styles {
+}
+.conference-other-single {
+ font-size:14px;
+ color:#666666;
+}
+.conference-comments {
+}
+.conference-logo:hover{
+transform:scale(1.05,1.05);}
+.conference-logo {
+ transition-duration:0.2s;
+ transition-timing-function:ease;
+ transition-property:all;
+}
+.conference-orange-outline-button:hover{
+background-color: transparent;
+border: 1px solid #d7193d;
+color: #d7193d;
+}.conference-orange-outline-button:hover{
+transform:scale(1.05,1.05); border-top-width:2px;
+ border-right-width:2px;
+ border-bottom-width:2px;
+ border-left-width:2px;
+}
+.conference-orange-outline-button {
+background-color: transparent;
+border: 1px solid #ff4c1c;
+color: #ff4c1c;
+padding: 15px 24.6px;
+}.conference-orange-outline-button {
+ font-family:'Maven Pro';
+ border-top-style:solid;
+ border-right-style:solid;
+ border-bottom-style:solid;
+ border-left-style:solid;
+ border-top-width:2px;
+ border-right-width:2px;
+ border-bottom-width:2px;
+ border-left-width:2px;
+ font-weight:700;
+ font-size:14px;
+ line-height:1.2;
+ letter-spacing:2px;
+ padding-left:32px;
+ padding-right:32px;
+ transition-duration:0.2s;
+ transition-timing-function:ease;
+ transition-property:all;
+ button-hover_color:#d7193d;
+}
+.conference-footer-1-navlink:hover{
+ color:#63002f;
+}
+.conference-footer-1-navlink {
+ font-family:'Maven Pro';
+ font-size:14px;
+ color:#be92a6;
+ font-weight:700;
+ text-decoration:none;
+ letter-spacing:2px;
+ line-height:1.2;
+ padding-left:20px;
+ padding-right:20px;
+ padding-top:12px;
+ padding-bottom:12px;
+ transition-duration:0.2s;
+ transition-timing-function:ease;
+ transition-property:all;
+}
+.conference-square {
+background-image:url(http://vfw9851.navarrocreativesites.com/wp-content/uploads/2019/12/grad-logo.png);background-size: cover; width:200px;
+ height:200px;
+ border-top-width:20px;
+ border-right-width:20px;
+ border-bottom-width:20px;
+ border-left-width:20px;
+ border-top-style:none;
+ border-right-style:none;
+ border-bottom-style:none;
+ border-left-style:none;
+ position:absolute;
+ border-right-color:#ffdad0;
+ border-bottom-color:#ffdad0;
+ border-left-color:#ffdad0;
+}
+.conference-sponsors-1-wrapper {
+ width:100%;
+ background-color:#ffffff;
+ padding-top:20px;
+ padding-left:20px;
+ padding-right:20px;
+ padding-bottom:20px;
+ height:100%;
+ text-align:center;
+ box-shadow:0px 10px 40px rgba(0,0,0,0.1);
+}
+.conference-sponsors-1-wrapper:not(.ct-section),
+.conference-sponsors-1-wrapper.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:flex-start;
+}
+.conference-sponsors-1-image {
+}
+.conference-sponsors-1-title {
+ font-family:'Oswald';
+ color:#63002f;
+ line-height:1;
+ font-size:24px;
+ text-transform:uppercase;
+ margin-bottom:8px;
+ font-weight:700;
+}
+.conference-sponsors-1-text {
+ font-family:'Maven Pro';
+ color:#666666;
+ font-size:14px;
+ font-weight:400;
+ line-height:1.6;
+ margin-bottom:12px;
+ max-width:240px;
+}
+.conference-heading-two {
+ font-family:'Oswald';
+ font-size:100px;
+ font-weight:700;
+ text-transform:uppercase;
+ line-height:1;
+ z-index:100;
+ color:#a69056;
+}
+@media (max-width: 991px) {
+.conference-heading-two {
+ font-size:80px;
+}
+}
+
+@media (max-width: 767px) {
+.conference-heading-two {
+ font-size:56px;
+}
+}
+
+.conference-white-outline-button:hover{
+transform:scale(1.05,1.05);}
+.conference-white-outline-button {
+background-color: transparent;
+border: 1px solid #ffffff;
+color: #ffffff;
+padding: 15px 24.6px;
+}.conference-white-outline-button {
+ font-family:'Maven Pro';
+ font-size:14px;
+ font-weight:700;
+ letter-spacing:2px;
+ line-height:1.2;
+ padding-left:36px;
+ padding-right:36px;
+ transition-duration:.2s;
+ transition-timing-function:ease;
+ transition-property:all;
+}
+.conference-schedule-1-heading-row {
+ margin-top:120px;
+}
+.conference-schedule-1-day-wrapper {
+ text-align:right;
+}
+.conference-schedule-1-day-wrapper:not(.ct-section),
+.conference-schedule-1-day-wrapper.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+align-items:flex-end;
+justify-content:center;
+}
+@media (max-width: 991px) {
+.conference-schedule-1-day-wrapper {
+ text-align:left;
+}
+.conference-schedule-1-day-wrapper:not(.ct-section),
+.conference-schedule-1-day-wrapper.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+align-items:flex-start;
+justify-content:flex-start;
+}
+}
+
+.conference-schedule-1-day-title {
+ font-family:'Oswald';
+ font-size:64px;
+ font-weight:900;
+ text-transform:uppercase;
+ line-height:1;
+ margin-left:-20px;
+ margin-right:-20px;
+ color:#475c9d;
+}
+@media (max-width: 991px) {
+.conference-schedule-1-day-title {
+ margin-bottom:-28px;
+ margin-left:-32px;
+}
+}
+
+.conference-schedule-1-column {
+}
+.conference-schedule-1-column:not(.ct-section),
+.conference-schedule-1-column.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+justify-content:flex-start;
+}
+.conference-schedule-1-date {
+ font-family:'Oswald';
+ font-size:16px;
+ font-weight:400;
+ text-transform:uppercase;
+ letter-spacing:4px;
+ padding-left:20px;
+ padding-top:12px;
+ padding-bottom:12px;
+ border-left-color:#d7193d;
+ border-left-width:4px;
+ border-left-style:solid;
+ color:#475c9d;
+}
+@media (max-width: 991px) {
+.conference-schedule-1-date {
+ margin-left:-20px;
+}
+}
+
+.conference-schedule-1-row {
+ border-top-color:#f9c5af;
+ border-right-color:#f9c5af;
+ border-bottom-color:#f9c5af;
+ border-left-color:#f9c5af;
+ border-top-width:1px;
+ border-right-width:1px;
+ border-bottom-width:1px;
+ border-left-width:1px;
+ border-top-style:solid;
+ border-right-style:none;
+ border-bottom-style:none;
+ border-left-style:none;
+}
+.conference-schedule-1-time {
+ font-family:'Oswald';
+ font-size:48px;
+ color:#63002f;
+ font-weight:700;
+ line-height:1;
+ margin-bottom:4px;
+}
+@media (max-width: 991px) {
+.conference-schedule-1-time {
+ margin-bottom:-28px;
+}
+}
+
+.conference-schedule-1-text {
+ font-family:'Maven Pro';
+ color:#666666;
+ font-size:14px;
+ margin-bottom:8px;
+}
+.conference-schedule-1-textlink:hover{
+ text-decoration:underline;
+ color:#d7193d;
+}
+.conference-schedule-1-textlink {
+ font-family:'Maven Pro';
+ color:#e64034;
+ text-decoration:none;
+ font-size:14px;
+ font-weight:600;
+ letter-spacing:2px;
+ transition-duration:0.2s;
+ transition-timing-function:ease;
+ transition-property:all;
+}
+.conference-lunch-wrapper {
+background-size: cover; background-color:#981a1e;
+ background-repeat:no-repeat;
+}
+.conference-schedule-1-lunch-column {
+}
+.conference-schedule-1-lunch-column:not(.ct-section),
+.conference-schedule-1-lunch-column.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:row;
+align-items:center;
+}
+.conference-schedule-1-image {
+ width:40px;
+ margin-right:8px;
+}
+.conference-schedule-1-lunch-title {
+ font-family:'Oswald';
+ color:#ffffff;
+ font-size:40px;
+ text-transform:uppercase;
+ font-weight:700;
+ line-height:1;
+}
+.conference-main-button:hover{
+transform:scale(1.05,1.05); box-shadow:0px 10px 40px rgba(0,0,0,0.2);
+}
+.conference-main-button {
+background-color :#1e73be;
+border: 1px solid #1e73be;
+color: #ffffff;
+padding: 16px 25.6px;
+}.conference-main-button {
+background-image: linear-gradient(135deg, #ff7f0d, #e64034); font-family:'Maven Pro';
+ border-top-style:none;
+ border-right-style:none;
+ border-bottom-style:none;
+ border-left-style:none;
+ font-size:20px;
+ font-weight:700;
+ letter-spacing:2px;
+ line-height:1.2;
+ padding-left:48px;
+ padding-right:48px;
+ transition-duration:0.2s;
+ transition-timing-function:ease;
+ transition-property:all;
+ padding-bottom:20px;
+ z-index:100;
+}
+@media (max-width: 1120px) {
+.conference-main-button {
+ border-top-style:none;
+ border-right-style:none;
+ border-bottom-style:none;
+ border-left-style:none;
+}
+}
+
+@media (max-width: 991px) {
+.conference-main-button {
+ border-top-style:none;
+ border-right-style:none;
+ border-bottom-style:none;
+ border-left-style:none;
+}
+}
+
+.conference-speakers-2-column {
+}
+.conference-speakers-2-wrapper {
+ width:100%;
+ background-color:#ffffff;
+ height:100%;
+ box-shadow:0px 10px 40px rgba(0,0,0,0.1);
+}
+.conference-speakers-2-wrapper:not(.ct-section),
+.conference-speakers-2-wrapper.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:row;
+align-items:stretch;
+}
+.conference-speakers-2-title {
+ font-family:'Oswald';
+ color:#63002f;
+ font-weight:700;
+ font-size:54px;
+ line-height:1;
+ text-transform:uppercase;
+ margin-bottom:12px;
+}
+.conference-speakers-2-label {
+ font-family:'Maven Pro';
+ color:#999999;
+ font-size:12px;
+ font-weight:400;
+ margin-bottom:12px;
+}
+.conference-speakers-2-text {
+ font-family:'Maven Pro';
+ color:#666666;
+ font-size:14px;
+ font-weight:400;
+ line-height:1.6;
+ margin-bottom:24px;
+}
+.conference-heading-three {
+ font-family:'Oswald';
+ font-size:48px;
+ font-weight:700;
+ line-height:1.2;
+ text-transform:uppercase;
+ z-index:100;
+ color:#981a1e;
+}
+.conference-speakers-cta-5-back {
+ background-blend-mode:overlay;
+}
+.conference-tickets-1-column {
+ text-align:center;
+}
+.conference-tickets-1-column:not(.ct-section),
+.conference-tickets-1-column.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+.conference-tickets-1-title {
+ font-family:'Oswald';
+ font-size:36px;
+ font-weight:700;
+ color:#d7193d;
+ line-height:1;
+ text-transform:uppercase;
+ letter-spacing:2px;
+ margin-top:32px;
+}
+.conference-tickets-1-star-wrapper {
+ margin-top:12px;
+ margin-bottom:0px;
+}
+.conference-tickets-1-star-wrapper:not(.ct-section),
+.conference-tickets-1-star-wrapper.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:row;
+align-items:center;
+}
+.conference-tickets-1-star {
+color: #f9c5af;}.conference-tickets-1-star 
+>svg {width: 24px;height: 24px;}.conference-tickets-1-star {
+ margin-left:4px;
+ margin-right:4px;
+}
+.conference-tickets-1-price {
+ font-family:'Oswald';
+ font-size:96px;
+ font-weight:700;
+ color:#63002f;
+ line-height:1;
+ margin-bottom:48px;
+}
+.conference-tickets-1-point {
+ font-family:'Maven Pro';
+ color:#666666;
+ font-size:14px;
+ font-weight:400;
+ line-height:1.6;
+ padding-top:12px;
+ padding-bottom:12px;
+ width:100%;
+ border-top-color:#f9c5af;
+ border-top-width:1px;
+ border-top-style:solid;
+ max-width:480px;
+}
+.conference-gradient-heading {
+ font-family:'Oswald';
+ font-size:112px;
+ line-height:1;
+ font-weight:700;
+ color:#63002f;
+ text-transform:uppercase;
+ z-index:100;
+}
+@media (max-width: 767px) {
+.conference-gradient-heading {
+ font-size:64px;
+}
+}
+
+.conference-contact-4-wrapper {
+ width:100%;
+ background-color:#ffffff;
+ padding-top:48px;
+ padding-left:36px;
+ padding-right:36px;
+ padding-bottom:48px;
+ text-align:center;
+ height:100%;
+ box-shadow:0px 10px 40px rgba(0,0,0,0.1);
+}
+.conference-contact-4-wrapper:not(.ct-section),
+.conference-contact-4-wrapper.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:flex-start;
+}
+.conference-contact-4-icon {
+color: #a69056;}.conference-contact-4-icon 
+>svg {width: 36px;height: 36px;}.conference-contact-4-icon {
+ margin-bottom:12px;
+}
+.conference-contact-4-title {
+ font-size:24px;
+ line-height:1;
+ text-transform:uppercase;
+ margin-bottom:8px;
+ color:#981a1e;
+}
+.conference-contact-4-text {
+ font-family:'Maven Pro';
+ color:#666666;
+ font-size:14px;
+ font-weight:400;
+ line-height:1.6;
+}
+.conference-contact-4-link:hover{
+ text-decoration:underline;
+ color:#d7193d;
+}
+.conference-contact-4-link {
+ font-family:'Maven Pro';
+ font-size:14px;
+ font-weight:700;
+ text-decoration:none;
+ letter-spacing:2px;
+ transition-duration:0.2s;
+ transition-timing-function:ease;
+ transition-property:all;
+ color:#981a1e;
+}
+.conference-body-text {
+ font-family:'Maven Pro';
+ font-size:14px;
+ color:#666666;
+ font-weight:400;
+ line-height:1.6;
+}
+.conference-gallery-2-column:hover{
+transform:scale(1.05,1.05); opacity:1;
+ border-top-style:none;
+ border-right-style:none;
+ border-bottom-style:none;
+ border-left-style:none;
+ z-index:1000;
+ box-shadow:0px 10px 40px rgba(0,0,0,0.3);
+}
+.conference-gallery-2-column {
+background-size: cover; background-repeat:no-repeat;
+ border-top-width:2px;
+ border-right-width:2px;
+ border-bottom-width:2px;
+ border-left-width:2px;
+ border-top-style:none;
+ border-right-style:none;
+ border-bottom-style:none;
+ border-left-style:none;
+ border-top-color:transparent;
+ border-right-color:transparent;
+ border-bottom-color:transparent;
+ border-left-color:transparent;
+ transition-duration:0.2s;
+ transition-timing-function:ease;
+ transition-property:all;
+ opacity:0.7;
+ background-color:white;
+ background-position:50% 50%;
+}
+.Place {
+ font-family:'Oswald';
+ color:#f9c5af;
+ font-size:32px;
+ line-height:1.3;
+ letter-spacing:7px;
+ font-weight:500;
+ text-transform:uppercase;
+}
+.Subheading {
+ font-size:20px;
+ line-height:1.5;
+ color:#666666;
+ padding-top:10px;
+ padding-bottom:10px;
+ padding-left:40px;
+ margin-left:40px;
+ border-left-color:#d7193d;
+ border-left-width:4px;
+ border-left-style:solid;
+ max-width:320px;
+}
+@media (max-width: 1120px) {
+.Subheading {
+ width:auto;
+}
+}
+
+@media (max-width: 991px) {
+.Subheading {
+ width:auto;
+}
+}
+
+@media (max-width: 767px) {
+.Subheading {
+ border-top-style:solid;
+ border-top-width:4px;
+ border-top-color:#E64034;
+ margin-top:40px;
+ padding-top:40px;
+ padding-left:20px;
+ padding-right:20px;
+ border-left-style:none;
+ margin-left:0px;
+ max-width:100%;
+ width:auto;
+}
+}
+
+@media (max-width: 479px) {
+.Subheading {
+ text-align:left;
+}
+}
+
+.conference-speakers-3-wrapper {
+ background-color:#ffffff;
+ height:100%;
+ box-shadow:0px 10px 40px rgba(0,0,0,0.1);
+}
+@media (max-width: 991px) {
+.conference-speakers-3-wrapper {
+ height:100%;
+ position:relative;
+}
+.conference-speakers-3-wrapper:not(.ct-section),
+.conference-speakers-3-wrapper.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+justify-content:flex-start;
+}
+}
+
+.conference-speaker-3-text-column {
+}
+@media (max-width: 991px) {
+.conference-speaker-3-text-column {
+ text-align:center;
+}
+.conference-speaker-3-text-column:not(.ct-section),
+.conference-speaker-3-text-column.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+}
+
+.SpeakerHeading {
+ font-family:'Oswald';
+ font-size:40px;
+ text-align:left;
+ line-height:1;
+ text-transform:uppercase;
+ font-weight:700;
+ color:#63002f;
+}
+@media (max-width: 991px) {
+.SpeakerHeading {
+ font-size:36px;
+ text-align:center;
+}
+}
+
+@media (max-width: 479px) {
+.SpeakerHeading {
+ font-size:32px;
+}
+}
+
+.SmallParagraph {
+ color:#666666;
+ font-size:14px;
+ text-align:left;
+ padding-bottom:10px;
+ line-height:1.6;
+}
+@media (max-width: 1120px) {
+.SmallParagraph {
+}
+}
+
+@media (max-width: 991px) {
+.SmallParagraph {
+ text-align:center;
+}
+}
+
+.OutlineButton:hover{
+transform:scale(1.05,1.05); border-top-color:#E64034;
+ border-right-color:#E64034;
+ border-bottom-color:#E64034;
+ border-left-color:#E64034;
+ color:#e64034;
+}
+.OutlineButton {
+ color:#ff4c1c;
+ font-weight:700;
+ font-size:14px;
+ letter-spacing:2px;
+ width:100%;
+ text-align:center;
+ padding-top:13px;
+ padding-bottom:17px;
+ border-top-width:2px;
+ border-right-width:2px;
+ border-bottom-width:2px;
+ border-left-width:2px;
+ border-top-style:solid;
+ border-right-style:solid;
+ border-bottom-style:solid;
+ border-left-style:solid;
+ text-decoration:none;
+ transition-duration:0.2s;
+ transition-timing-function:ease;
+ transition-property:all;
+}
+.OutlineButton:not(.ct-section),
+.OutlineButton.ct-section .ct-section-inner-wrap{
+display:block;
+flex-direction:unset;
+}
+@media (max-width: 479px) {
+.OutlineButton {
+ width:100%;
+}
+}
+
+.BecomeSpeaker {
+ color:#ff4c1c;
+ text-transform:uppercase;
+ font-size:24px;
+}
+.General {
+background-image:url(http://conference.oxy.host/wp-content/uploads/sites/15/2017/10/Rectangle-17@2x-2.png);background-size: 48px 48px; width:100%;
+ height:300px;
+ background-repeat:no-repeat;
+ position:relative;
+ text-align:right;
+ overflow:hidden;
+ background-blend-mode:overlay;
+ background-color:#8e1b1b;
+ padding-bottom:0px;
+}
+.General:not(.ct-section),
+.General.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+align-items:flex-end;
+justify-content:space-between;
+}
+@media (max-width: 1120px) {
+.General {
+ overflow:hidden;
+}
+.General:not(.ct-section),
+.General.ct-section .ct-section-inner-wrap{
+display:flex;
+}
+}
+
+@media (max-width: 991px) {
+.General {
+ text-align:center;
+}
+.General:not(.ct-section),
+.General.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+}
+
+.Price {
+ font-family:'Oswald';
+ color:rgba(255,255,255,0.5);
+ font-weight:700;
+ font-size:120px;
+ position:relative;
+ letter-spacing:-5px;
+ text-align:left;
+ align-self:auto;
+ width:100%;
+ line-height:1;
+}
+@media (max-width: 1120px) {
+.Price {
+ text-align:left;
+ position:static;
+ top:0%;
+}
+}
+
+@media (max-width: 991px) {
+.Price {
+ position:static;
+ text-align:left;
+ width:auto;
+}
+}
+
+@media (max-width: 767px) {
+.Price {
+ position:static;
+ top:0px;
+ right:0px;
+ width:100%;
+ text-align:center;
+}
+}
+
+@media (max-width: 479px) {
+.Price {
+ position:static;
+ bottom:50px;
+ left:-90px;
+}
+}
+
+.PriceText {
+ width:60%;
+ padding-bottom:40px;
+ padding-right:20px;
+ text-align:left;
+}
+.PriceText:not(.ct-section),
+.PriceText.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+align-items:flex-start;
+}
+@media (max-width: 1120px) {
+.PriceText {
+ width:70%;
+}
+}
+
+@media (max-width: 991px) {
+.PriceText {
+ width:80%;
+ text-align:center;
+}
+.PriceText:not(.ct-section),
+.PriceText.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+}
+
+@media (max-width: 767px) {
+.PriceText {
+ width:60%;
+}
+}
+
+@media (max-width: 479px) {
+.PriceText {
+ width:70%;
+}
+}
+
+.PackName {
+ font-family:'Oswald';
+ color:#ffffff;
+ margin-bottom:-2px;
+ font-weight:700;
+}
+.Standart {
+background-image:url(http://conference.oxy.host/wp-content/uploads/sites/15/2017/10/Rectangle-17@2x-2.png);background-size: 48px 48px; width:100%;
+ height:300px;
+ position:relative;
+ text-align:right;
+ overflow:hidden;
+ background-blend-mode:overlay;
+ background-color:#a69056;
+ background-repeat:no-repeat;
+ margin-top:0px;
+ padding-top:0px;
+}
+.Standart:not(.ct-section),
+.Standart.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+align-items:flex-end;
+justify-content:space-between;
+}
+@media (max-width: 1120px) {
+.Standart {
+ overflow:hidden;
+}
+}
+
+@media (max-width: 991px) {
+.Standart {
+ text-align:center;
+}
+.Standart:not(.ct-section),
+.Standart.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+}
+
+.Business {
+background-image:url(http://conference.oxy.host/wp-content/uploads/sites/15/2017/10/Rectangle-17@2x-2.png);background-size: 48px 48px; width:100%;
+ height:300px;
+ position:relative;
+ text-align:right;
+ overflow:hidden;
+ background-blend-mode:overlay;
+ background-repeat:no-repeat;
+ background-color:#1b2b5f;
+}
+.Business:not(.ct-section),
+.Business.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+align-items:flex-end;
+justify-content:space-between;
+}
+@media (max-width: 1120px) {
+.Business {
+ overflow:hidden;
+}
+}
+
+@media (max-width: 991px) {
+.Business {
+ text-align:center;
+}
+.Business:not(.ct-section),
+.Business.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+}
+
+.Day {
+ font-family:'Oswald';
+ text-transform:uppercase;
+ font-size:72px;
+ line-height:1;
+ font-weight:900;
+ color:#475c9d;
+}
+@media (max-width: 479px) {
+.Day {
+ font-size:48px;
+}
+}
+
+.SchDate {
+ font-family:'Oswald';
+ color:#ff4c1c;
+ font-weight:400;
+ text-transform:uppercase;
+ border-left-width:4px;
+ border-left-style:solid;
+ border-left-color:#e64034;
+ margin-left:12px;
+ padding-bottom:10px;
+ padding-top:10px;
+ padding-left:18px;
+ letter-spacing:4px;
+}
+.Time {
+ font-family:'Oswald';
+ font-size:48px;
+ font-weight:700;
+ padding-right:70px;
+ color:#63002f;
+ line-height:1;
+ margin-left:240px;
+}
+@media (max-width: 767px) {
+.Time {
+ margin-left:40px;
+}
+}
+
+@media (max-width: 479px) {
+.Time {
+ padding-right:20px;
+ margin-left:20px;
+}
+}
+
+.BigParagraph {
+ margin-bottom:10px;
+ font-size:14px;
+ line-height:1.5;
+ color:#666666;
+ text-align:left;
+}
+.BigParagraph:not(.ct-section),
+.BigParagraph.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+.Speakername:hover{
+ text-decoration:underline;
+ color:#d7193d;
+}
+.Speakername {
+ color:#e64034;
+ font-size:14px;
+ font-weight:700;
+ line-height:1.1;
+ text-decoration:none;
+ letter-spacing:2px;
+ transition-duration:0.2s;
+ transition-timing-function:ease;
+ transition-property:all;
+}
+.LunchBlock {
+background-image:url(http://conference.oxy.host/wp-content/uploads/sites/15/2017/10/Rectangle-12-Copy@2x.png); width:100%;
+ height:100px;
+ text-align:left;
+ color:#fff;
+}
+.LunchBlock:not(.ct-section),
+.LunchBlock.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:row;
+align-items:center;
+justify-content:flex-start;
+}
+.TicketHeading {
+ font-family:'Oswald';
+ color:#63002f;
+ text-transform:uppercase;
+ line-height:0.9;
+ font-size:100px;
+ text-align:left;
+ font-weight:700;
+ margin-bottom:12px;
+}
+@media (max-width: 767px) {
+.TicketHeading {
+}
+}
+
+@media (max-width: 479px) {
+.TicketHeading {
+ font-size:60px;
+}
+}
+
+.conference-slider-1-slide {
+ margin-bottom:16px;
+ overflow:visible;
+ box-shadow:0px 0px rgba(0,0,0,0.3);
+}
+.conference-slider-1-slide:not(.ct-section),
+.conference-slider-1-slide.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:row;
+}
+.a2a3photo:hover{
+transform:scale(1.05,1.05); border-top-style:none;
+ border-right-style:none;
+ border-bottom-style:none;
+ border-left-style:none;
+ z-index:1000;
+ opacity:1;
+}
+.a2a3photo {
+background-size: cover; width:66.66%;
+ padding-bottom:33.33%;
+ background-color:#ffffff;
+ border-top-width:2px;
+ border-right-width:2px;
+ border-bottom-width:2px;
+ border-left-width:2px;
+ border-top-color:rgba(0,0,0,0);
+ border-left-color:rgba(0,0,0,0);
+ border-bottom-color:rgba(0,0,0,0);
+ border-right-color:rgba(0,0,0,0);
+ opacity:0.7;
+ transition-duration:0.2s;
+ transition-timing-function:ease;
+ transition-property:all;
+}
+.a1b3photo:hover{
+transform:scale(1.05,1.05); opacity:1;
+}
+.a1b3photo {
+ width:33.33%;
+ padding-bottom:33.33%;
+ background-color:#ffffff;
+ opacity:0.7;
+ transition-duration:0.2s;
+ transition-timing-function:ease;
+ transition-property:all;
+}
+.a1a3photo:hover{
+transform:scale(1.05,1.05); opacity:1;
+ z-index:1000;
+}
+.a1a3photo {
+ width:33.33%;
+ background-color:#ffffff;
+ padding-bottom:20%;
+ transition-duration:0.2s;
+ transition-timing-function:ease;
+ transition-property:all;
+ opacity:0.7;
+}
+.FormWrapBlock {
+background-image:linear-gradient(#666666, #666666); width:100%;
+}
+.FormHeading {
+ color:#ffffff;
+ margin-bottom:20px;
+}
+@media (max-width: 1120px) {
+.FormHeading {
+ font-size:30px;
+}
+}
+
+.conference-sponsors-2-image {
+}
+.Membership {
+ font-size:36px;
+}
+._FormWrapBlock {
+ padding-right:338px;
+}
